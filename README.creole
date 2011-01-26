@@ -18,7 +18,7 @@ data and parks the hard drive head to protect the drive in the event of a fall.
 Note that this applet depends on the following ubuntu packages: tp-smapi-source, hdapsd
 
 For installation instructions for these dependencies on ubuntu, see: 
-[[ http://www.thinkwiki.org/wiki/Install_Ubuntu_9.10_%28Karmic_Koala%29_on_a_ThinkPad_T400#Extras | Active Protection System on Ubuntu 9.10 ]] and [[http://www.thinkwiki.org/wiki/Active_Protection_System | Active Protection System on Thinkwiki ]]
+[[ http://www.thinkwiki.org/wiki/Install_Ubuntu_9.10_%28Karmic_Koala%29_on_a_ThinkPad_T400#Extras | Install Ubuntu 9.10 (Karmic Koala) on a ThinkPad T400 ]] and [[http://www.thinkwiki.org/wiki/Active_Protection_System | Active Protection System on Thinkwiki ]]
 
 == Features
 
