@@ -1,8 +1,11 @@
 =gnome-hdaps-applet
 
 2006-01-20
+
 Copyright (C) 2006 Jon Escombe <lists@dresco.co.uk>
+
 Upstream site: [[http://www.zen24593.zen.co.uk/hdaps/]]
+
 Maintainer's site: [[http://www.lyraphase.com/]]
 
 == Description
