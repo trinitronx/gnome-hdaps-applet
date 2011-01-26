@@ -1,0 +1,32 @@
+
+gnome-hdaps-applet
+2006-01-20
+Copyright (C) 2006 Jon Escombe <lists@dresco.co.uk>
+
+
+Features:
+
+Monitors the /sys/block/xxx/queue/protect file and displays a graphical representation of the 
+HDAPS protection status. Looks for the protect file under hda and sda and will use whichever
+is found first (lame but works for now).
+
+
+Installation:
+
+(1) Compile the applet using the following command line -
+
+    gcc $(pkg-config --cflags --libs libpanelapplet-2.0) -o gnome-hdaps-applet gnome-hdaps-applet.c
+
+(2) Copy the compiled gnome-hdaps-applet file to "/usr/bin/"
+
+(3) Copy the .png files to a new directory "/usr/share/pixmaps/gnome-hdaps-applet/"
+
+(4) Copy the GNOME_HDAPS_StatusApplet.server file to "/usr/lib/bonobo/servers/"
+
+(5) Restart GNOME and you should find the "HDAPS Status" applet in the "Add to Panel" dialog
+
+
+To-do:
+
+Icon scaling
+About & config dialogs
