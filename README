@@ -1,0 +1,25 @@
+gnome-hdaps-applet
+2006-01-20
+Copyright (C) 2006 Jon Escombe <lists@dresco.co.uk>
+
+= Description
+
+A GNOME Panel Applet to display HDAPS protection status.
+Certain Lenovo Thinkpads have an accellerometer built in to detect falls or movements
+of the laptop.  The hard drive active protection system daemon (hdapsd) watches this 
+data and parks the hard drive head to protect the drive in the event of a fall.
+
+Note that this applet depends on the following ubuntu packages: tp-smapi-source, hdapsd
+
+For installation instructions for these dependencies on ubuntu, see: 
+[[ http://www.thinkwiki.org/wiki/Install_Ubuntu_9.10_%28Karmic_Koala%29_on_a_ThinkPad_T400#Extras | Active Protection System on Ubuntu 9.10 ]] and [[http://www.thinkwiki.org/wiki/Active_Protection_System | Active Protection System on Thinkwiki ]]
+
+= Features
+
+Monitors the /sys/block/xxx/queue/protect file and displays a graphical representation of the 
+HDAPS protection status. Looks for the protect file under hda and sda and will use whichever
+is found first (lame but works for now).
+
+= Installation
+
+To install this package, see file: INSTALL
